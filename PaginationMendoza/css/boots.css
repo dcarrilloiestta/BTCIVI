@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.wrapper{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+.wrapper h2{
+    margin: 1em 0;
+    color: rgb(88, 8, 8);
+}
+.wrapper p{
+    margin-bottom: 1em;
+
+    
+}

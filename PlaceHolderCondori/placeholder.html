@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <head>
+        <meta charset="utf-8">
+        <!--bootstrap css-->
+
+        <meta name="viewport" content="width=device-width, initial-
+         scale=1, shrink-to-fit=no">
+
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <script src="js/bootstrap.js"></script>
+
+
+    </head>
+
+</head>
+<!--mercadio de posicion  de paieses-->
+
+<body>
+    <div class="form-group">
+        <label class="control-label col-xs-2" id="country">Contenido:</label>
+        <div class="col-xs-9">
+            <select name="zones[]" class="selectpicker" title="All continents" id="zones" multiple>
+            <option value="europa">europa</option>
+            <option value="Asia">Asia</option>
+            <option value="norte America">America norte</option>
+            <option value="sur America">America sur</option>
+            <option value="Antarctica">Antarctica</option>
+            <option value="Australia">Australia</option>
+            <option value="peru">peru</option>
+          </select>
+
+        </div>
+        <select title="Please Choose one item">
+            <option value="">A</option>
+            <option value="">B</option>
+            <option value="">C</option>
+        </select>
+        <select class="selectboxclass">
+            <option value="">- Please Select -</option>
+            <option value="IN">India</option>
+            <option value="US">America</option>
+         </select>
+        <script>
+            $('select.selectboxclass option:first').attr('disabled', true);
+        </script>
+        <select name="GROUPINGS[xxxxxx]" style="width: 60%;" required>
+            <option value="">Choose Platform</option>
+        <option value="iOS">iOS</option>
+            <option value="Android">Android</option>
+            <option value="Windows">Windows</option>
+        </select>
+        <select class="form-control">
+            <option selected disabled class="text-hide">Title</option>
+            <option>A</option>
+            <option>B</option>
+            <option>C</option>
+          </select>
+        <select>
+            <option value="" selected disabled>Please select</option>
+            <option value="">A</option>
+            <option value="">B</option>
+            <option value="">C</option>
+        </select>
+        <select>
+            <option value="" selected="true" disabled="true">Please select</option>
+            <option value="">A</option>
+            <option value="">B</option>
+            <option value="">C</option>
+        </select>
+        <select class="form-group">
+            <option class="bs-title-option" value="myVal">My PlaceHolder</option>
+            <option>A</option>
+            <option>B</option>
+            <option>c</option>
+         </select>
+        <label class="hidden-label" for="IsActive" *ngIf="filterIsActive == undefined">Placeholder text</label>
+        <select class="form-control form-control-sm" type="text" name="filterIsActive" [(ngModel)]="filterIsActive" id="IsActive">
+    <option value="true">true</option>
+    <option value="false">false</option>
+</select>
+        <div class="card" aria-hidden="true">
+            <img src="vero.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title placeholder-glow">
+                    <span class="placeholder col-6"></span>
+                    <div class="border rounded-3 shadow-sm -p-4">
+                        <div class="row" style="height: 300px; background-color:#ebee47">
+                            <div class="col-4 align-self-start" style="background-color:#aaa">
+                                <div class="">posicion 1</div>
+                                <div class="">posicion 2</div>
+                                <button class="btn btn-primary mt-3"> MI BUTTON</BUTTON></button>
+                            </div>
+                        </div>
+
+
+
+
+</html>
